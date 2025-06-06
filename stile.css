@@ -45,3 +45,18 @@ footer {
     padding: 15px;
     margin-top: 30px;
 }
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 5px;
+    }
+}
+
