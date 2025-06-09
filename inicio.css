@@ -15,7 +15,7 @@ body {
 
 header {
     background-color: rgb(119, 119, 225); 
-    color: rgb(225, 210, 236);
+    color: rgb(255, 255, 255);
     padding: 20px 10px;
     text-align: center;
 }
@@ -48,7 +48,7 @@ main {
 
 footer {
     background-color: rgb(89, 5, 5);
-     color: rgb(225, 210, 236);
+     color: rgb(255, 255, 255);
     text-align: center;
     padding: 15px;
     margin-top: 30px;
