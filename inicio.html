@@ -5,88 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Descubra os incríveis animais jurássicos e sua história no mundo dos dinossauros.">
     <title>Animais Jurássicos</title>
-<style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f4f8;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        header h1 {
-            font-size: 2.5em;
-        }
-
-        .container {
-            padding: 20px;
-        }
-
-        .dino {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .dino-card {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            overflow: hidden;
-            width: calc(33.333% - 20px);
-            box-sizing: border-box;
-        }
-
-        .dino-card img {
-            width: 100%;
-            height: auto;
-        }
-
-        .dino-card h2 {
-            font-size: 1.5em;
-            text-align: center;
-            margin: 10px 0;
-        }
-
-        .dino-card p {
-            padding: 0 10px 10px;
-            text-align: justify;
-        }
-
-        .dino-card a {
-            display: block;
-            text-align: center;
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px;
-            text-decoration: none;
-            margin: 10px;
-            border-radius: 5px;
-        }
-
-        .dino-card a:hover {
-            background-color: #45a049;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css"> <!-- Link para o CSS -->
 </head>
 <body>
 
@@ -95,28 +14,22 @@
         <p>Explore o mundo dos dinossauros e descubra as criaturas que dominaram a Terra no período Jurássico.</p>
     </header>
 
-    <div class="container">
-        <section class="dino">
-            <div class="dino-card">
-                <img src="https://example.com/t-rex.jpg" alt="T-Rex">
-                <h2>Tyrannosaurus Rex</h2>
-                <p>O T-Rex é um dos dinossauros mais conhecidos e temido por sua enorme mandíbula e tamanho impressionante. Vivia no final do período Cretáceo.</p>
-                <a href="#">Saiba mais</a>
-            </div>
-            <div class="dino-card">
-                <img src="https://example.com/triceratops.jpg" alt="Triceratops">
-                <h2>Triceratops</h2>
-                <p>Este dinossauro herbívoro era facilmente reconhecível por seu grande crânio com três chifres. Ele viveu no final do período Cretáceo.</p>
-                <a href="#">Saiba mais</a>
-            </div>
-            <div class="dino-card">
-                <img src="https://example.com/brachiosaurus.jpg" alt="Brachiosaurus">
-                <h2>Brachiosaurus</h2>
-                <p>O Brachiosaurus era um dinossauro gigantesco, herbívoro e quadrúpede. Seus longos pescoços permitiam que ele alcançasse as copas das árvores para se alimentar.</p>
-                <a href="#">Saiba mais</a>
-            </div>
+    <main>
+        <section class="curiosidade">
+            <h2>Tyrannosaurus Rex</h2>
+            <p>O T-Rex é um dos dinossauros mais conhecidos e temido por sua enorme mandíbula e tamanho impressionante. Vivia no final do período Cretáceo.</p>
         </section>
-    </div>
+
+        <section class="curiosidade">
+            <h2>Triceratops</h2>
+            <p>Este dinossauro herbívoro era facilmente reconhecível por seu grande crânio com três chifres. Ele viveu no final do período Cretáceo.</p>
+        </section>
+
+        <section class="curiosidade">
+            <h2>Brachiosaurus</h2>
+            <p>O Brachiosaurus era um dinossauro gigantesco, herbívoro e quadrúpede. Seus longos pescoços permitiam que ele alcançasse as copas das árvores para se alimentar.</p>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2025 Animais Jurássicos - Todos os direitos reservados.</p>
