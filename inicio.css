@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #d298e1;
+    background-color: #5e266c;
     color: #696363;
     padding: 0;
     margin: 0;
@@ -15,7 +15,7 @@ body {
 
 header {
     background-color: rgb(119, 119, 225); 
-    color: white;
+    color: rgb(116, 45, 171);
     padding: 20px 10px;
     text-align: center;
 }
@@ -32,7 +32,7 @@ main {
 }
 
 .curiosidade {
-    background-color: #d298e1;
+    background-color: #5e266c;
     margin-bottom: 20px;
     padding: 15px;
     border-left: 5px solid rgb(64, 64, 156);
@@ -48,7 +48,7 @@ main {
 
 footer {
     background-color: rgb(89, 5, 5);
-    color: white;
+    color: rgb(116, 45, 171);
     text-align: center;
     padding: 15px;
     margin-top: 30px;
