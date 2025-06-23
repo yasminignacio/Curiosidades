@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Galeria de Dinossauros</title>
+    <style>
+        body {
+            background-color: #4B0082; /* azul escuro */
+            color: #E6E6FA; /* lilás claro */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #E6E6FA; /* lilás */
+            margin-bottom: 40px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background-color: #fff; /* branco */
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            display: block;
+        }
+        .info {
+            padding: 15px;
+            color: #4B0082; /* azul escuro */
+            text-align: center;
+        }
+        .info h2 {
+            margin: 0 0 10px 0;
+            font-size: 1.4em;
+        }
+        .info p {
+            margin: 0;
+            font-weight: bold;
+            font-size: 1em;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .info h2 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Galeria de Dinossauros</h1>
+    <div class="gallery">
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Tyrannosaurus_rex_mounted_skeleton.jpg" alt="Tyrannosaurus rex" />
+            <div class="info">
+                <h2>Tyrannosaurus rex</h2>
+                <p>Viveu há 68 - 66 milhões de anos</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Stegosaurus_DB.jpg" alt="Stegos_
