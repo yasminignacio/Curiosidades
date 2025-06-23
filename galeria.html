@@ -6,15 +6,15 @@
     <title>Galeria de Dinossauros</title>
     <style>
         body {
-            background-color: #4B0082; /* azul escuro */
-            color: #E6E6FA; /* lilás claro */
+            background-color: #4B0082; 
+            color: #E6E6FA; 
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 20px;
         }
         h1 {
             text-align: center;
-            color: #E6E6FA; /* lilás */
+            color: #E6E6FA; 
             margin-bottom: 40px;
         }
         .gallery {
@@ -23,7 +23,7 @@
             gap: 20px;
         }
         .card {
-            background-color: #fff; /* branco */
+            background-color: #fff; 
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 4px 8px rgba(0,0,0,0.3);
@@ -33,12 +33,14 @@
             transform: scale(1.05);
         }
         .card img {
-            width: 100%;
-            display: block;
+            width: 100%; 
+            height: auto; 
+            max-height: 300px;
+            object-fit: cover; 
         }
         .info {
             padding: 15px;
-            color: #4B0082; /* azul escuro */
+            color: #4B0082; 
             text-align: center;
         }
         .info h2 {
