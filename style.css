@@ -17,6 +17,19 @@ header{
     padding: 20px 10px;
     text-align: center;
 }
+nav, ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+nav, ul, li, a {
+    color: #60277a;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 main{
     max-width: 800px;
@@ -58,17 +71,4 @@ footer {
     main {
         padding: 5px;
     }
-}
-nav, ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-
-nav, ul, li, a {
-    color: #60277a;
-    text-decoration: none;
-    font-weight: bold;
 }
