@@ -59,15 +59,3 @@ footer {
         padding: 5px;
     }
 }
-nav, ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-nav, ul, li, a {
-    color: #b32ec5;
-    text-decoration: none;
-    font-weight: bold;
-}
