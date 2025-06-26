@@ -25,8 +25,12 @@ nav, ul {
     margin-top: 10px;
 }
 
+nav, ul, li {
+    margin: 0 15px;
+}
+
 nav, ul, li, a {
-    color: #60277a;
+    color: #9518bb;
     text-decoration: none;
     font-weight: bold;
 }
