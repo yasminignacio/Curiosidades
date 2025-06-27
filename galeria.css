@@ -8,18 +8,18 @@
       color: #E6E6FA; 
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-     padding: 0 10px;
+     padding: 0;
         }
         header {
         background-color:  #4b0082; 
         color: white;
-        padding:0 10px 0 10px;
+        padding: 20px 10px;
         text-align: center;
         }
         h1 {
             text-align: center;
             color: #E6E6FA; 
-            margin-bottom: 40px;
+            margin-bottom: 10px;
         }
         .gallery {
             display: grid;
