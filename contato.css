@@ -23,7 +23,7 @@ p{
  #inicio {
     background-color: #4B0082;
     font-size: 30px;
-    padding: 20px;
+    padding: 20px 10px;
     border-bottom: 2px solid rgb(181, 44, 167);
     text-align: center;
   }
