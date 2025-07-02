@@ -1,0 +1,81 @@
+body{
+     background-color: rgb(255, 255, 255);
+   }
+   table{
+     width:60%;
+     border-collapse: collapse;
+   }
+   th, td{
+     border: 2px solid black;
+     padding: 8px;
+     text-align: center;
+   }
+   th{
+     background-color: rgb(153, 36, 151);
+     color: white;
+   }
+p{
+  color: #8b2b92;
+  font-family: comic sans ms;
+  font-size: 20px;
+}
+
+ #inicio {
+    background-color: #3b0149;
+    font-size: 30px;
+    padding: 20px;
+    border-bottom: 2px solid rgb(59, 1, 53);
+    text-align: center;
+  }
+.form-container{
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #fff5f8;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+border: 1px solid #dcb;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+form label{
+  margin-top: 15px;
+  font-weight: bold;
+  color: rgb(215, 10, 201);
+}
+
+form input,
+form select,
+form textarea {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form button {
+  margin-top: 25px;
+  padding: 12px;
+  font-size: 18px;
+  background-color: rgb(101, 7, 118);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3 ease;
+}
+
+form button:hover {
+  background-color: #d235c0;
+}
