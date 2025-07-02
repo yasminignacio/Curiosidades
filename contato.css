@@ -1,5 +1,5 @@
 body{
-     background-color: rgb(255, 255, 255);
+     background-color: #f4f4f4;;
    }
    table{
      width:60%;
@@ -11,20 +11,20 @@ body{
      text-align: center;
    }
    th{
-     background-color: rgb(153, 36, 151);
+     background-color: rgb(194, 19, 191);
      color: white;
    }
 p{
-  color: #8b2b92;
+  color: #a617b1;
   font-family: comic sans ms;
   font-size: 20px;
 }
 
  #inicio {
-    background-color: #3b0149;
+    background-color: #a935c7;
     font-size: 30px;
     padding: 20px;
-    border-bottom: 2px solid rgb(59, 1, 53);
+    border-bottom: 2px solid rgb(181, 44, 167);
     text-align: center;
   }
 .form-container{
@@ -45,7 +45,7 @@ form{
 form label{
   margin-top: 15px;
   font-weight: bold;
-  color: rgb(215, 10, 201);
+  color: rgb(160, 27, 152);
 }
 
 form input,
@@ -68,7 +68,7 @@ form button {
   margin-top: 25px;
   padding: 12px;
   font-size: 18px;
-  background-color: rgb(101, 7, 118);
+  background-color: rgb(146, 21, 168);
   color: white;
   border: none;
   border-radius: 8px;
@@ -77,5 +77,5 @@ form button {
 }
 
 form button:hover {
-  background-color: #d235c0;
+  background-color: #a51094;
 }
