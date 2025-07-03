@@ -1,4 +1,9 @@
-body{
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+     body{
      background-color: #f4f4f4;;
    }
    table{
@@ -105,11 +110,6 @@ footer {
     main {
         padding: 5px;
     }
-
-    .curiosidade {
-        padding: 10px; 
-    }
-
     header h1 {
         font-size: 2em; 
     }
