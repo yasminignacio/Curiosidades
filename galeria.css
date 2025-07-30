@@ -57,18 +57,14 @@
             font-size: 1em;
         }
             .img {
-         background-color: #fff;
-         border-radius: 10px;
-         overflow: hidden;
-         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-        transition: transform 0.3s ease;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: fixed; /* Faz a imagem ficar fixa na tela */
-        top: 50%; /* Centraliza verticalmente */
-        left: 50%; /* Centraliza horizontalmente */
-        transform: translate(-50%, -50%); /* Ajusta para garantir que a imagem fique centralizada */
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
       .botao-voltar {
