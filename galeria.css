@@ -63,10 +63,11 @@
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
 }
 
       .botao-voltar {
