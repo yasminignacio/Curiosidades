@@ -57,7 +57,7 @@
             font-size: 1em;
         }
 
-    .img {
+    .imagem {
     background-color: #fff;
     border-radius: 10px;
     overflow: hidden;
@@ -67,6 +67,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    text-align: center;
 }
 
       .botao-voltar {
