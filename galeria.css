@@ -59,14 +59,13 @@
 
     .imagem {
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
     text-align: center;
 }
 
